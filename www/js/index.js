@@ -11,34 +11,34 @@ window.localStorage.setItem(key,value);
 window.localStorage.getItem(key, value);
 
 
-var key = "bottle";
-var value = "cola";
+var key2 = "bottle";
+var value2 = "cola";
 
 window.localStorage.setItem(key,value);
 window.localStorage.getItem(key, value);
 
 
-var key = "coin";
-var value = "pound";
+var key3 = "coin";
+var value3 = "pound";
 
 window.localStorage.setItem(key,value);
 window.localStorage.getItem(key, value);
 
 
-var key = "headphones";
-var value = "white";
+var key4 = "headphones";
+var value4 = "white";
 
 window.localStorage.setItem(key,value);
 window.localStorage.getItem(key, value);
 
 
-var key = "watch";
-var value = "blue";
+var key5 = "watch";
+var value5 = "blue";
 
 window.localStorage.setItem(key,value);
 window.localStorage.getItem(key, value);
 
-window.alert("this is an alert");
+window.alert("show me" + key + "and show me" + value);
 });
 
 //ocument.addEventListener("deviceready", onDeviceReady, false);
