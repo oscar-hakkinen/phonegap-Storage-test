@@ -38,7 +38,8 @@ var value5 = "blue";
 window.localStorage.setItem(key,value);
 window.localStorage.getItem(key, value);
 
-window.alert("show me" + key + "and show me" + value);
+window.alert("show me " + key + " and show me " + value);
+window.alert(window.localStorage.length);
 });
 
 //ocument.addEventListener("deviceready", onDeviceReady, false);
