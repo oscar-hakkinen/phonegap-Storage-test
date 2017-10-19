@@ -2,36 +2,46 @@
 //var resumed_count = 0;
 //var launched_count = 0;
 
+$(document).ready(function() {}
+
 var key = "phone";
 var value = "samsung";
 
-window.localStorage.setItem(phone,samsung);
+window.localStorage.setItem(key,value);
+window.localStorage.getItem(key, value);
 
 
 var key = "bottle";
 var value = "cola";
 
-window.localStorage.setItem(bottle,cola);
+window.localStorage.setItem(key,value);
+window.localStorage.getItem(key, value);
+
 
 var key = "coin";
 var value = "pound";
 
-window.localStorage.setItem(coin,pound);
+window.localStorage.setItem(key,value);
+window.localStorage.getItem(key, value);
+
 
 var key = "headphones";
 var value = "white";
 
-window.localStorage.setItem(headphones,white);
+window.localStorage.setItem(key,value);
+window.localStorage.getItem(key, value);
+
 
 var key = "watch";
 var value = "blue";
 
-window.localStorage.setItem(watch,blue);
+window.localStorage.setItem(key,value);
+window.localStorage.getItem(key, value);
 
 window.alert("this is an alert");
+});
 
-
-//document.addEventListener("deviceready", onDeviceReady, false);
+//ocument.addEventListener("deviceready", onDeviceReady, false);
 		
 	
 //function updateDisplay() {
