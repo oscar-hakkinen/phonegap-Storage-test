@@ -1,3 +1,3 @@
-phonegap-lifecycle-test
+phonegap-storage-test
 =======================
- A simple PhoneGap Build application that counts the occurances of application lifecycle events 
+ A PhoneGap Build application to test storage
