@@ -54,6 +54,9 @@ var choco = {
             
 		}
 	}
+
+console.log(choco.productName);
+
 var chocoString = JSON.stringify(choco);
 
 window.localStorage.setItem("twixBar",chocoString);
@@ -61,7 +64,9 @@ var getChoco = window.localStorage.getItem("twixBar");
     
 var chocoJSON = JSON.parse(getChoco);
     
-window.alert("my favourite chocolate bar is" + twixBar.productName + "it has" + twixBar.nutrition.energy + "g calories");    
+    console.log(chocoJSON.productName);
+    
+window.alert("my favourite chocolate bar is" + chocoJSON.productName + "it has " + chocoJSON.nutrition.energy + "g calories");    
 });
 
 //ocument.addEventListener("deviceready", onDeviceReady, false);
