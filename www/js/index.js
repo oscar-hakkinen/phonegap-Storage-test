@@ -2,7 +2,7 @@
 //var resumed_count = 0;
 //var launched_count = 0;
 
-$(document).ready(function() {}
+$(document).ready(function() {
 
 var key = "phone";
 var value = "samsung";
