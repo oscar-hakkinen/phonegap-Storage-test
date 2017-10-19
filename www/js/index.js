@@ -40,6 +40,26 @@ window.localStorage.getItem(key, value);
 
 window.alert("show me " + key + " and show me " + value);
 window.alert(window.localStorage.length);
+    
+    
+    
+var choco = {
+		"productName": "Twix",
+ 		"nutrition": {
+    			"energy": "519",
+    			"fat": "6.0",
+    			"carbs": "16.1",
+                "protein": "1.1",
+                "salt": "0.11",
+            
+		}
+	}
+var chocoString = JSON.stringify(choco);
+
+window.localStorage.setItem("twixBar",chocoString);
+window.localStorrage.getItem("twixbar");   
+    
+window.alert("my favourite chocolate bar is" + chocoString.productName + "it has" + chocoString.nutrition.energy + "g calories");    
 });
 
 //ocument.addEventListener("deviceready", onDeviceReady, false);
