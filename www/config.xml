@@ -6,10 +6,10 @@
         id        = "mob.app.dev.storage"
         version   = "1.0.0">
 
-    <name>Application storage test</name>
+    <name>Application navigation test</name>
 
     <description>
-        A sample application that counts the occurances of lifecycle events.
+        A sample application that test the navigation on a mobile application
     </description>
 
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">

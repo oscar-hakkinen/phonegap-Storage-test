@@ -1,3 +1,4 @@
-phonegap-storage-test
+phonegap-navigation-test
 =======================
- A PhoneGap Build application to test storage
+ A PhoneGap Build application to test navigation
+ 
